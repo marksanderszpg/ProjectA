@@ -107,7 +107,7 @@ Begin VB.Form LoginFrm
       AutoSize        =   -1  'True
       BackColor       =   &H8000000D&
       BackStyle       =   0  'Transparent
-      Caption         =   "LOGIN FORM"
+      Caption         =   "THE LOGIN FORM"
       BeginProperty Font 
          Name            =   "Times New Roman"
          Size            =   18
@@ -122,7 +122,7 @@ Begin VB.Form LoginFrm
       Left            =   120
       TabIndex        =   4
       Top             =   120
-      Width           =   2385
+      Width           =   3225
    End
    Begin VB.Label Label2 
       AutoSize        =   -1  'True
