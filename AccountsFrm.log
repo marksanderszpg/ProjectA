@@ -1,0 +1,35 @@
+Line 250: Class MSComctlLib.ListView of control lstUser was not a loaded control class.
+Line 310: Class MSComctlLib.ImageList of control ilList was not a loaded control class.
+Line 328: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 257: The property name _ExtentX in lstUser is invalid.
+Line 258: The property name _ExtentY in lstUser is invalid.
+Line 259: The property name View in lstUser is invalid.
+Line 260: The property name LabelEdit in lstUser is invalid.
+Line 261: The property name LabelWrap in lstUser is invalid.
+Line 262: The property name HideSelection in lstUser is invalid.
+Line 263: The property name FullRowSelect in lstUser is invalid.
+Line 264: The property name GridLines in lstUser is invalid.
+Line 265: The property name _Version in lstUser is invalid.
+Line 266: The property name Icons in lstUser is invalid.
+Line 267: The property name SmallIcons in lstUser is invalid.
+Line 281: The property name NumItems in lstUser is invalid.
+Line 285: The property name ColumnHeader(1) in lstUser is invalid.
+Line 290: The property name ColumnHeader(2) in lstUser is invalid.
+Line 295: The property name ColumnHeader(3) in lstUser is invalid.
+Line 300: The property name ColumnHeader(4) in lstUser is invalid.
+Line 304: The property name ColumnHeader(5) in lstUser is invalid.
+Line 308: The property name ColumnHeader(6) in lstUser is invalid.
+Line 313: The property name _ExtentX in ilList is invalid.
+Line 314: The property name _ExtentY in ilList is invalid.
+Line 316: The property name ImageWidth in ilList is invalid.
+Line 317: The property name ImageHeight in ilList is invalid.
+Line 318: The property name MaskColor in ilList is invalid.
+Line 319: The property name _Version in ilList is invalid.
+Line 326: The property name Images in ilList is invalid.
+Line 331: The property name _ExtentX in ImageList1 is invalid.
+Line 332: The property name _ExtentY in ImageList1 is invalid.
+Line 334: The property name ImageWidth in ImageList1 is invalid.
+Line 335: The property name ImageHeight in ImageList1 is invalid.
+Line 336: The property name MaskColor in ImageList1 is invalid.
+Line 337: The property name _Version in ImageList1 is invalid.
+Line 344: The property name Images in ImageList1 is invalid.

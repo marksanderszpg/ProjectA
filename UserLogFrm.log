@@ -1,0 +1,30 @@
+Line 60: Class Library.jcbutton of control jcbutton1 was not a loaded control class.
+Line 180: Class Library.jcbutton of control jcbutton3 was not a loaded control class.
+Line 205: Class Library.jcbutton of control jcbutton4 was not a loaded control class.
+Line 230: Class Library.ctrlLiner of control ctrlLiner1 was not a loaded control class.
+Line 66: The property name _ExtentX in jcbutton1 is invalid.
+Line 67: The property name _ExtentY in jcbutton1 is invalid.
+Line 68: The property name ButtonStyle in jcbutton1 is invalid.
+Line 79: The property name Caption in jcbutton1 is invalid.
+Line 81: Property Picture in jcbutton1 had an invalid file reference.
+Line 82: The property name UseMaskCOlor in jcbutton1 is invalid.
+Line 83: The property name MaskColor in jcbutton1 is invalid.
+Line 118: Property Picture in ListImage1 had an invalid file reference.
+Line 186: The property name _ExtentX in jcbutton3 is invalid.
+Line 187: The property name _ExtentY in jcbutton3 is invalid.
+Line 188: The property name ButtonStyle in jcbutton3 is invalid.
+Line 199: The property name Caption in jcbutton3 is invalid.
+Line 201: Property Picture in jcbutton3 had an invalid file reference.
+Line 202: The property name UseMaskCOlor in jcbutton3 is invalid.
+Line 203: The property name MaskColor in jcbutton3 is invalid.
+Line 211: The property name _ExtentX in jcbutton4 is invalid.
+Line 212: The property name _ExtentY in jcbutton4 is invalid.
+Line 213: The property name ButtonStyle in jcbutton4 is invalid.
+Line 224: The property name Caption in jcbutton4 is invalid.
+Line 226: Property Picture in jcbutton4 had an invalid file reference.
+Line 227: The property name UseMaskCOlor in jcbutton4 is invalid.
+Line 228: The property name MaskColor in jcbutton4 is invalid.
+Line 236: The property name _ExtentX in ctrlLiner1 is invalid.
+Line 237: The property name _ExtentY in ctrlLiner1 is invalid.
+Line 242: Property Picture in Image6 had an invalid file reference.
+Line 269: Property Picture in Image4 had an invalid file reference.

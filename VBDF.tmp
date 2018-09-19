@@ -1,0 +1,488 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
+Begin VB.Form ControlPanel 
+   BackColor       =   &H00EDEBE9&
+   Caption         =   "Form1"
+   ClientHeight    =   7950
+   ClientLeft      =   60
+   ClientTop       =   345
+   ClientWidth     =   9975
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   7950
+   ScaleWidth      =   9975
+   StartUpPosition =   3  'Windows Default
+   Begin Inventory.jcbutton jcbutton1 
+      Height          =   495
+      Left            =   960
+      TabIndex        =   3
+      Top             =   5160
+      Width           =   1335
+      _ExtentX        =   2355
+      _ExtentY        =   873
+      ButtonStyle     =   2
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      BackColor       =   15199212
+      Caption         =   "jcbutton"
+      UseMaskCOlor    =   -1  'True
+   End
+   Begin VB.PictureBox bgHeader 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      BorderStyle     =   0  'None
+      ForeColor       =   &H80000008&
+      Height          =   615
+      Left            =   720
+      ScaleHeight     =   41
+      ScaleMode       =   3  'Pixel
+      ScaleWidth      =   465
+      TabIndex        =   1
+      Top             =   1440
+      Width           =   6975
+   End
+   Begin VB.PictureBox bgFooter 
+      Appearance      =   0  'Flat
+      BackColor       =   &H00F5F5F5&
+      BorderStyle     =   0  'None
+      ForeColor       =   &H80000008&
+      Height          =   345
+      Left            =   360
+      ScaleHeight     =   23
+      ScaleMode       =   3  'Pixel
+      ScaleWidth      =   310
+      TabIndex        =   0
+      Top             =   3600
+      Width           =   4650
+   End
+   Begin MSComctlLib.ImageList ilList 
+      Left            =   2640
+      Top             =   6000
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   16
+      ImageHeight     =   16
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   1
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":0000
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin VB.PictureBox bgMain 
+      Appearance      =   0  'Flat
+      BackColor       =   &H00F5F5F5&
+      BorderStyle     =   0  'None
+      ForeColor       =   &H00E3F9FB&
+      Height          =   3435
+      Left            =   6720
+      ScaleHeight     =   229
+      ScaleMode       =   3  'Pixel
+      ScaleWidth      =   209
+      TabIndex        =   2
+      Top             =   2400
+      Width           =   3135
+   End
+   Begin MSComctlLib.ImageList i16x16 
+      Left            =   1920
+      Top             =   6000
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   16
+      ImageHeight     =   16
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   15
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":059A
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":0FAC
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":19BE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1D58
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":20F2
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":248C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage7 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2826
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage8 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":3238
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage9 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":3C4A
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage10 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":465C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage11 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":506E
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage12 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":5A80
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage13 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":6492
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage14 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":6EA4
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage15 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":7440
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin MSComctlLib.ImageList imgForm 
+      Left            =   3120
+      Top             =   6000
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   32
+      ImageHeight     =   32
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   6
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":79DC
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1EA76
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":35B10
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":363EA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":3CC4C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":51DBE
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin MSComctlLib.ImageList ImgListLeft 
+      Left            =   1320
+      Top             =   6000
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   25
+      ImageHeight     =   25
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   21
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":66F30
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":6D792
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":7391C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":88A8E
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":9F450
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":A55DA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage7 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":AB764
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage8 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":C2126
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage9 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":D8AE8
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage10 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":EF4AA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage11 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":F5634
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage12 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":FB7BE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage13 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":112180
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage14 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":128B42
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage15 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":13F504
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage16 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":155EC6
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage17 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":16C888
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage18 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":18324A
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage19 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":199C0C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage20 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1B05CE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage21 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1B6758
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin MSComctlLib.ImageList ImgListLV 
+      Left            =   720
+      Top             =   6000
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   16
+      ImageHeight     =   16
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   22
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1BCFBA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1C3144
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage3 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1C99A6
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage4 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1CFB30
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage5 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1E4CA2
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage6 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":1FB664
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage7 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2017EE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage8 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":207978
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage9 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":21E33A
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage10 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":234CFC
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage11 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":24B6BE
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage12 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":251848
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage13 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2579D2
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage14 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":26E394
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage15 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":284D56
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage16 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":29B718
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage17 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2B20DA
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage18 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2C8A9C
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage19 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2DF45E
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage20 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":2F5E20
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage21 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":30C7E2
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage22 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "Control Panel.frx":31296C
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin MSComctlLib.ListView lvShortcut 
+      Height          =   2415
+      Left            =   360
+      TabIndex        =   4
+      ToolTipText     =   "List of shortcuts"
+      Top             =   960
+      Width           =   2535
+      _ExtentX        =   4471
+      _ExtentY        =   4260
+      View            =   3
+      LabelEdit       =   1
+      LabelWrap       =   -1  'True
+      HideSelection   =   -1  'True
+      HideColumnHeaders=   -1  'True
+      OLEDragMode     =   1
+      FullRowSelect   =   -1  'True
+      _Version        =   393217
+      ForeColor       =   0
+      BackColor       =   -2147483643
+      Appearance      =   1
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Tahoma"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      OLEDragMode     =   1
+      NumItems        =   0
+   End
+   Begin VB.Shape shpCapBor 
+      BackColor       =   &H00F5F5F5&
+      BackStyle       =   1  'Opaque
+      BorderColor     =   &H00C0C0C0&
+      Height          =   495
+      Left            =   120
+      Top             =   240
+      Width           =   6705
+   End
+End
+Attribute VB_Name = "ControlPanel"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+Public Function FOR_LEFT_PICTURE()
+    Dim lv_listitems As ListItem
+    Dim cRow As ColumnHeader
+    With lvShortcut
+        .ListItems.Clear
+            .ListItems.Add , "I21", "Products w/o Warehouse", 21, 21
+            .ListItems.Add , "I1", "Products Information", 1, 1
+            .ListItems.Add , "I2", "Category List", 2, 2
+            .ListItems.Add , "I3", "Customers Information", 3, 3
+            .ListItems.Add , "I4", "Suppliers Information", 4, 4
+            .ListItems.Add , "I5", "Warehouse", 5, 5
+            '.ListItems.Add , "I6", "Employees", 6, 6
+            .ListItems.Add , "I7", "Stock in", 7, 7
+            .ListItems.Add , "I11", "Products on Reorder Level", 11, 11
+            .ListItems.Add , "I17", "Product Pacing", 17, 17
+            .ListItems.Add , "I8", "Pulled-Out Products", 8, 8
+            .ListItems.Add , "I12", "Sales Return", 16, 16
+            .ListItems.Add , "I18", "Purchase Return", 18, 18
+            .ListItems.Add , "I9", "Orders", 9, 9
+            .ListItems.Add , "I13", "Payment", 12, 12
+            .ListItems.Add , "I10", "System Users", 10, 10
+            .ListItems.Add , "I20", "Delivery Note", 20, 20
+            .ListItems.Add , "I14", "Stock-in Activation", 13, 13
+            .ListItems.Add , "I15", "Pull-out Activation", 15, 15
+            .ListItems.Add , "I16", "Sales Return Activation", 14, 14
+            .ListItems.Add , "I19", "Purchase Return Activation", 19, 19
+   End With
+End Function
+Private Sub Form_Load()
+Set lvShortcut.SmallIcons = ImgListLeft
+Set lvShortcut.Icons = ImgListLeft
+ControlPanel.FOR_LEFT_PICTURE
+End Sub

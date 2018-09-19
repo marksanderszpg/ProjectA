@@ -1,0 +1,121 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\scrrun.dll=
+D:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+d:\documents and settings\tyron\desktop\system for installer\hotel reservation system\data.mdb=
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Datas.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\documents and settings\tyron\desktop\system for installer\hotel reservation system\data.mdb=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+D:\WINDOWS\system32\MSBIND.DLL=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\WINDOWS\system32\MSDE.DLL=Yes
+D:\WINDOWS\system32\MSDBRPT.DLL=Yes
+D:\WINDOWS\system32\scrrun.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\WINDOWS\system32\tabctl32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Documents and Settings\tyron\Desktop\system for installer\Hotel Reservation System\Data.mdb=No
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Reservation.exe=Yes
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Datas.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Documents and Settings\tyron\Desktop\system for installer\Hotel Reservation System\Reservation.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+D:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSDE.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSDBRPT.DLL=$(WinSysPath)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Documents and Settings\tyron\Desktop\system for installer\Hotel Reservation System\Data.mdb=$(AppPath)
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Reservation.exe=$(AppPath)
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Datas.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Documents and Settings\tyron\Desktop\system for installer\Hotel Reservation System\Reservation.exe=Yes
+D:\Documents and Settings\tyron\Desktop\system for installer\Hotel Reservation System\Data.mdb=Yes
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Reservation.exe=Yes
+C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Datas.mdb=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Hotel Reservation
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Hotel Reservation
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Hotel Reservation]
+Icon1=Reservation.exe
+Title1=Hotel Reservation
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System
+ProjectFolder=C:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System
+ServerSideCab=
+File1=c:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\setup.exe
+File2=c:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Setup.Lst
+File3=c:\tyron Soft\webgeekresources project request\Hotel Reservation - 1500\Hotel Reservation System\Reservation.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
